@@ -1,6 +1,4 @@
 Shirisha Kadiri
-B00766566
-skadiri1@binghamton.edu
 
 Computer networks
 Project 1
@@ -22,3 +20,10 @@ Every chat should start from client and end from server
 Send one message each time
 To send another message start from client again and end by sending message from server
 Same for multiple clients
+
+The code works when client and server are from same system.
+To execute server and client from different system:
+	//get the address of server
+	1. hostname -i 
+	//change this line in the client program
+	2. clientAddress.sin_addr.s_addr = inet_addr(address of the server);
