@@ -1,0 +1,24 @@
+Shirisha Kadiri
+B00766566
+skadiri1@binghamton.edu
+
+Computer networks
+Project 1
+Socket Programming
+
+Instructions to execute
+Server
+	1. gcc -o server shirisha_server.c -pthread
+	2. ./server
+Client
+	1. gcc -o client shirisha_client.c
+	2. ./client
+
+* Send message from client first.
+* Send message from server to the client.
+
+Start sending message from and client and then reply from server
+Every chat should start from client and end from server
+Send one message each time
+To send another message start from client again and end by sending message from server
+Same for multiple clients
